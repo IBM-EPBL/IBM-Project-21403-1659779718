@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  
+  <script type="text/javascript">
+    function disableBack() { window.history.forward(); }
+    setTimeout("disableBack()", 0);
+    window.onunload = function () { null };
+  </script>
+
+</head>
+
+ 
+<body style="background-color:chartreuse;">
+  <div class="main">
+    <h1>Home Page</h1>
+  </div>
+  <center>
+    <div class="type">
+      <div class="f">
+        <form>
+          <br>
+          <label for="username">
+            <h1>Enter Name</h1>
+          </label>
+          <input class="ip" type="text">
+          <br>
+          <br>
+          <label for="email">
+            <h1>Enter Email</h1>
+          </label>
+          <input class="ip" type="email">
+          <br>
+          <br>
+          <label for="password">
+            <h1>Enter Password</h1>
+          </label>
+          <input class="ip" type="password">
+          <br><br>
+        </form>
+        <h3><a href="#"><button class="bot">SignIn</button></a></h3>
+        <a href="/signup">
+          <h3>SignUp</h3>
+        </a>
+      </div>
+    </div>
+</body>
+<style>
+.type{
+    width: 600px;
+    background-color:rgb(245, 178, 124);
+    margin:auto;
+    margin-top: 25px;
+    border-width: 20px;
+    border: solid greenyellow;
+    border-radius: 40px;
+}
+  .main{
+    height: 70px;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding-left: 70px;
+}
+.main h1{
+    text-align: center;
+    margin: 0px;
+    margin-top:40px;
+}
+
+.main box f1{
+    padding: 20px;
+}
+.ip{
+    height: 25px;
+    border: solid 2px red;
+    
+}
+.f h1{
+    margin: 5px;
+}
+.bot{
+    height: 40px;
+    width: 80px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.bot:hover{
+    color: red;
+}
+</style>
+</html>
