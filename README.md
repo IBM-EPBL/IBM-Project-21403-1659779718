@@ -76,6 +76,6 @@ noticeable to the client
 - A personal finance app will not only help you with budgeting and 
 accounting but also give you helpful insights about financial management
 
-## Technical Architecture
+## Technical  Architecture
 
 ![image](https://user-images.githubusercontent.com/78342430/190962811-1d95e7be-92c5-4f7a-8e4a-e6991ea12449.png)
